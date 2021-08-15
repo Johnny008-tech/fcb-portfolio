@@ -1,0 +1,41 @@
+* { font-family: 'Roboto', sans-serif; }
+h1, h2 { font-family: 'Montserrat', sans-serif; }
+h2 { color: #007bff; }
+html { scroll-behavior: smooth; }
+
+img { 
+	height: 250px;
+	width: 450px; 
+}
+
+ul { 
+	list-style: none; 
+	padding: 0;
+}
+
+#landing {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 25px;
+}
+
+#gallery {
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.tools {
+	height: 200px;
+	width: 75%;
+	margin-top: 20px;
+	padding: 15px;
+	border: 5px solid #f2f2f2;
+	border-radius: 15px;
+}
